@@ -348,7 +348,7 @@ pricing block
 .pricingBlock .ant-list {
   text-align: center;
 }
-
+/* bech card eli f wset jet kbira ou 5arja */
 .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
   box-shadow: 0 0 12px 2px #f3f3f3;
   transform: scale(1.1);
