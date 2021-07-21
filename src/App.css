@@ -292,6 +292,7 @@ how it works
   position: relative;
 }
 
+/* before .worksBlock insert haja hethi  */
 .worksBlock:before {
   content: "";
   background: rgba(0, 0, 0, 0.5);
