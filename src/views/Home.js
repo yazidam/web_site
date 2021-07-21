@@ -6,6 +6,7 @@ import Faq from "../components/home/Faq";
 import Hero from "../components/home/Hero";
 import Works from "../components/home/Works";
 import Princing from "../components/home/Princing";
+import Contact from "../components/home/Contact";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Works />
       <Faq />
       <Princing />
+      <Contact />
     </div>
   );
 };
