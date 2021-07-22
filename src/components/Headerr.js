@@ -1,6 +1,8 @@
 import React from "react";
-import { Menu } from "antd";
 
+import { Anchor } from "antd";
+
+const { Link } = Anchor;
 const Headerr = () => {
   return (
     <div className="container-fluid">
@@ -9,15 +11,16 @@ const Headerr = () => {
           <i className="fas fa-bolt"></i>
           <a href="http://www.google.com">Tech</a>
         </div>
-        <Menu mode="horizontal" defaultSelectedKeys={["home"]}>
-          <Menu.Item key="home">Home</Menu.Item>
-          <Menu.Item key="about">About</Menu.Item>
-          <Menu.Item key="features">Features</Menu.Item>
-          <Menu.Item key="howitworhs">How it works</Menu.Item>
-          <Menu.Item key="faq">FAQ</Menu.Item>
-          <Menu.Item key="pricing">Pricing</Menu.Item>
-          <Menu.Item key="contact">Contact</Menu.Item>
-        </Menu>
+
+        <Anchor targetOffset="65">
+          <Link href="#hero" title="Home" />
+          <Link href="#about" title="About" />
+          <Link href="#feature" title="Features" />
+          <Link href="#works" title="How it works" />
+          <Link href="#faq" title="FAQ" />
+          <Link href="#pricing" title="Pricing" />
+          <Link href="#contact" title="Contact" />
+        </Anchor>
       </div>
     </div>
   );

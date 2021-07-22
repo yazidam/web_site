@@ -2,7 +2,7 @@ import React from "react";
 import { BackTop } from "antd";
 const Footerr = () => {
   return (
-    <div className="container-fluid">
+    <div id="footer" className="container-fluid">
       <div className="footer">
         <div className="logo">
           <i className="fas fa-bolt"></i>
