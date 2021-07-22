@@ -4,6 +4,7 @@ import "antd/dist/antd.css";
 import { Layout } from "antd";
 import Headerr from "./components/Headerr";
 import Home from "./views/Home";
+import Footerr from "./components/home/Footerr";
 
 const { Header, Content, Footer } = Layout;
 function App() {
@@ -15,6 +16,9 @@ function App() {
       <Content>
         <Home />
       </Content>
+      <Footer>
+        <Footerr />
+      </Footer>
     </Layout>
   );
 }
