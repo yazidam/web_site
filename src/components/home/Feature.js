@@ -20,34 +20,33 @@ const Feature = () => {
           </p>
         </div>
         <Row gutter={[16, 16]}>
-          <Col span={8}>
-            <Card hoverable cover={<img alt="Modern Desig" src={image1} />}>
-              <Meta title="Modern Desig" />
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
+            <Card hoverable cover={<img alt="Modern Design" src={image1} />}>
+              <Meta title="Modern Design" />
             </Card>
           </Col>
-          <Col span={8}>
-            <Card hoverable cover={<img alt="Modern Desig" src={image2} />}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
+            <Card hoverable cover={<img alt="Test" src={image2} />}>
               <Meta title="Clean and Elegant" />
             </Card>
           </Col>
-          <Col span={8}>
-            <Card hoverable cover={<img alt="Modern Desig" src={image3} />}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
+            <Card hoverable cover={<img alt="Test" src={image3} />}>
               <Meta title="Great Support" />
             </Card>
           </Col>
-
-          <Col span={8}>
-            <Card hoverable cover={<img alt="Modern Desig" src={image4} />}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
+            <Card hoverable cover={<img alt="Test" src={image4} />}>
               <Meta title="Easy to customise" />
             </Card>
           </Col>
-          <Col span={8}>
-            <Card hoverable cover={<img alt="Modern Desig" src={image5} />}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
+            <Card hoverable cover={<img alt="Test" src={image5} />}>
               <Meta title="Unlimited Features" />
             </Card>
           </Col>
-          <Col span={8}>
-            <Card hoverable cover={<img alt="Modern Desig" src={image6} />}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
+            <Card hoverable cover={<img alt="Test" src={image6} />}>
               <Meta title="Advanced Options" />
             </Card>
           </Col>
